@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rutikraundale/CampusShare#readme",
+  "bugs": {
+    "url": "https://github.com/rutikraundale/CampusShare/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutikraundale/CampusShare.git"
+  },
+  "license": "ISC",
+  "author": "rutik raundale",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
